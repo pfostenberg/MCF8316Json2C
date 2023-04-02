@@ -1,0 +1,425 @@
+{
+  "signature": "oneui-register-data",
+  "data": [
+    [
+      {
+        "idx": 0,
+        "id": "isd_config",
+        "value": "0x44630C0E"
+      },
+      {
+        "idx": 1,
+        "id": "rev_drive_config",
+        "value": "0x283AF064"
+      },
+      {
+        "idx": 2,
+        "id": "motor_startup1",
+        "value": "0x0B6807D0"
+      },
+      {
+        "idx": 3,
+        "id": "motor_startup2",
+        "value": "0x23066000"
+      },
+      {
+        "idx": 4,
+        "id": "closed_loop1",
+        "value": "0x061981B4"
+      },
+      {
+        "idx": 5,
+        "id": "closed_loop2",
+        "value": "0x4AFF4908"
+      },
+      {
+        "idx": 6,
+        "id": "closed_loop3",
+        "value": "0x2480200A"
+      },
+      {
+        "idx": 7,
+        "id": "closed_loop4",
+        "value": "0x2187CBB8"
+      },
+      {
+        "idx": 8,
+        "id": "speed_profiles1",
+        "value": "0x00000000"
+      },
+      {
+        "idx": 9,
+        "id": "speed_profiles2",
+        "value": "0x00000000"
+      },
+      {
+        "idx": 10,
+        "id": "speed_profiles3",
+        "value": "0x00000000"
+      },
+      {
+        "idx": 11,
+        "id": "speed_profiles4",
+        "value": "0x00000000"
+      },
+      {
+        "idx": 12,
+        "id": "speed_profiles5",
+        "value": "0x00000000"
+      },
+      {
+        "idx": 13,
+        "id": "speed_profiles6",
+        "value": "0x00000000"
+      }
+    ],
+    [
+      {
+        "idx": 0,
+        "id": "fault_config1",
+        "value": "0x1FE80206"
+      },
+      {
+        "idx": 1,
+        "id": "fault_config2",
+        "value": "0x74000000"
+      }
+    ],
+    [
+      {
+        "idx": 0,
+        "id": "pin_config",
+        "value": "0x00000001"
+      },
+      {
+        "idx": 1,
+        "id": "device_config1",
+        "value": "0x00100000"
+      },
+      {
+        "idx": 2,
+        "id": "device_config2",
+        "value": "0x0000B000"
+      },
+      {
+        "idx": 3,
+        "id": "peri_config1",
+        "value": "0x40000000"
+      },
+      {
+        "idx": 4,
+        "id": "gd_config1",
+        "value": "0x00000100"
+      },
+      {
+        "idx": 5,
+        "id": "gd_config2",
+        "value": "0x00200000"
+      }
+    ],
+    [
+      {
+        "idx": 0,
+        "id": "ana_trim3",
+        "value": "0x48004800"
+      },
+      {
+        "idx": 1,
+        "id": "ana_trim4",
+        "value": "0x00000000"
+      },
+      {
+        "idx": 2,
+        "id": "ana_trim5",
+        "value": "0x80000013"
+      },
+      {
+        "idx": 3,
+        "id": "ana_trim6",
+        "value": "0x00000000"
+      },
+      {
+        "idx": 4,
+        "id": "ana_trim7",
+        "value": "0x00000000"
+      },
+      {
+        "idx": 5,
+        "id": "ana_trim8",
+        "value": "0x800056A4"
+      },
+      {
+        "idx": 6,
+        "id": "ana_trim9",
+        "value": "0x003DD79D"
+      },
+      {
+        "idx": 7,
+        "id": "ana_trim10",
+        "value": "0xD36F113B"
+      }
+    ],
+    [
+      {
+        "idx": 0,
+        "id": "int_algo_1",
+        "value": "0x00B3407D"
+      },
+      {
+        "idx": 1,
+        "id": "int_algo_2",
+        "value": "0x000001A7"
+      }
+    ],
+    [
+      {
+        "idx": 0,
+        "id": "gate_driver_fault_status",
+        "value": "0x00000000"
+      },
+      {
+        "idx": 1,
+        "id": "controller_fault_status",
+        "value": "0x00000000"
+      }
+    ],
+    [
+      {
+        "idx": 0,
+        "id": "algo_status",
+        "value": "0x00000000"
+      },
+      {
+        "idx": 1,
+        "id": "mtr_params",
+        "value": "0x00000000"
+      },
+      {
+        "idx": 2,
+        "id": "algo_status_mpet",
+        "value": "0x0A000000"
+      }
+    ],
+    [
+      {
+        "idx": 0,
+        "id": "dev_ctrl",
+        "value": "0x00000000"
+      }
+    ],
+    [
+      {
+        "idx": 0,
+        "id": "algo_ctrl1",
+        "value": "0x80000000"
+      },
+      {
+        "idx": 1,
+        "id": "algo_ctrl2",
+        "value": "0x00000000"
+      },
+      {
+        "idx": 2,
+        "id": "current_pi",
+        "value": "0x000A5365"
+      },
+      {
+        "idx": 3,
+        "id": "speed_pi",
+        "value": "0x00000000"
+      },
+      {
+        "idx": 4,
+        "id": "dac_1",
+        "value": "0x00000000"
+      },
+      {
+        "idx": 5,
+        "id": "dac_2",
+        "value": "0x00000000"
+      }
+    ],
+    [
+      {
+        "idx": 0,
+        "id": "algorithm_state",
+        "value": "0x00000000"
+      },
+      {
+        "idx": 1,
+        "id": "fg_speed_fdbk",
+        "value": "0x01E79E78"
+      },
+      {
+        "idx": 2,
+        "id": "bus_current",
+        "value": "0x0022101C"
+      },
+      {
+        "idx": 3,
+        "id": "phase_current_a",
+        "value": "0xFF320000"
+      },
+      {
+        "idx": 4,
+        "id": "phase_current_b",
+        "value": "0x039A0000"
+      },
+      {
+        "idx": 5,
+        "id": "phase_current_c",
+        "value": "0xFE810000"
+      },
+      {
+        "idx": 6,
+        "id": "csa_gain_feedback",
+        "value": "0x00010000"
+      },
+      {
+        "idx": 7,
+        "id": "voltage_gain_feedback",
+        "value": "0x00000001"
+      },
+      {
+        "idx": 8,
+        "id": "vm_voltage",
+        "value": "0x03404000"
+      },
+      {
+        "idx": 9,
+        "id": "phase_voltage_va",
+        "value": "0x0001BB67"
+      },
+      {
+        "idx": 10,
+        "id": "phase_voltage_vb",
+        "value": "0x00022A41"
+      },
+      {
+        "idx": 11,
+        "id": "phase_voltage_vc",
+        "value": "0x0003E5A9"
+      },
+      {
+        "idx": 12,
+        "id": "sin_commutation_angle",
+        "value": "0x036BAD00"
+      },
+      {
+        "idx": 13,
+        "id": "cos_commutation_angle",
+        "value": "0x01A08A59"
+      },
+      {
+        "idx": 14,
+        "id": "ialpha",
+        "value": "0xFDD20000"
+      },
+      {
+        "idx": 15,
+        "id": "ibeta",
+        "value": "0x0446A7F5"
+      },
+      {
+        "idx": 16,
+        "id": "valpha",
+        "value": "0xFFB438E9"
+      },
+      {
+        "idx": 17,
+        "id": "vbeta",
+        "value": "0x00BBA4BA"
+      },
+      {
+        "idx": 18,
+        "id": "id",
+        "value": "0xFF5CC91C"
+      },
+      {
+        "idx": 19,
+        "id": "iq",
+        "value": "0x00C433DC"
+      },
+      {
+        "idx": 20,
+        "id": "vd",
+        "value": "0x00032627"
+      },
+      {
+        "idx": 21,
+        "id": "vq",
+        "value": "0x00BD659E"
+      },
+      {
+        "idx": 22,
+        "id": "iq_ref_rotor_align",
+        "value": "0x09997560"
+      },
+      {
+        "idx": 23,
+        "id": "speed_ref_open_loop",
+        "value": "0x0051FA41"
+      },
+      {
+        "idx": 24,
+        "id": "iq_ref_open_loop",
+        "value": "0x09997560"
+      },
+      {
+        "idx": 25,
+        "id": "speed_ref_closed_loop",
+        "value": "0x00000000"
+      },
+      {
+        "idx": 26,
+        "id": "id_ref_closed_loop",
+        "value": "0x00000000"
+      },
+      {
+        "idx": 27,
+        "id": "iq_ref_closed_loop",
+        "value": "0x00E1B95C"
+      },
+      {
+        "idx": 28,
+        "id": "isd_state",
+        "value": "0x00000005"
+      },
+      {
+        "idx": 29,
+        "id": "isd_speed",
+        "value": "0x00000228"
+      },
+      {
+        "idx": 30,
+        "id": "ipd_state",
+        "value": "0x00000000"
+      },
+      {
+        "idx": 31,
+        "id": "ipd_angle",
+        "value": "0x00000000"
+      },
+      {
+        "idx": 32,
+        "id": "ed",
+        "value": "0xFFFF51BE"
+      },
+      {
+        "idx": 33,
+        "id": "eq",
+        "value": "0x00B77FA6"
+      },
+      {
+        "idx": 34,
+        "id": "speed_fdbk",
+        "value": "0x01E8573B"
+      },
+      {
+        "idx": 35,
+        "id": "theta_est",
+        "value": "0x0F8CB399"
+      }
+    ]
+  ]
+}
