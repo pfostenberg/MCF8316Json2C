@@ -57,7 +57,7 @@ QString mcx8316a::doTi()
     if ( cfile.open(QIODevice::ReadWrite) )
     {
         QTextStream stream( &cfile );
-        stream << cFile << endl;
+        stream << cFile << Qt::endl;
     }
     //   qDebug() << dataMap["name"].toString();
     return cFile;
@@ -69,18 +69,14 @@ void mcx8316a::AddTiConfigLine(QString &line,QString id, QString val)
     QString post = ");\r\n";
     if (id.startsWith("isd_config"))
     {
-#ifdef TI_TRAPEZUID		
-        QString add = pre + "TI_MCT8316A_ISD_CONFIG," + val + post;
-#else
-		QString add = pre + "TI_MCF8316A_ISD_CONFIG," + val + post;
-#endif
+        QString add = pre + "TI_MCx8316A_ISD_CONFIG," + val + post;
 	
         line += add;
         return;
     }
     if (id.startsWith("motor_startup1"))
     {
-		#ifdef TI_TRAPEZUID		
+        #ifdef TI_TRAPEZUID
         QString add = pre + "TI_MCT8316A_MOTOR_STARTUP1," + val + post;
 #else
 		QString add = pre + "TI_MCF8316A_MOTOR_STARTUP1," + val + post;
@@ -92,11 +88,11 @@ void mcx8316a::AddTiConfigLine(QString &line,QString id, QString val)
     if (id.startsWith("motor_startup2"))
     {
 		#ifdef TI_TRAPEZUID		
-			QString add = pre + "TI_MCT8316A_MOTOR_STARTUP2," + val + post;
+            QString add = pre + "TI_MCT8316A_MOTOR_STARTUP2," + val + post;
 		#else
 			QString add = pre + "TI_MCF8316A_MOTOR_STARTUP2," + val + post;
 		#endif
-		
+
         line += add;
         return;
     }
@@ -149,7 +145,7 @@ void mcx8316a::AddTiConfigLine(QString &line,QString id, QString val)
 
     if (id.startsWith("const_speed"))
     {
-        QString add = pre + "TI_MCx8316A_CONST_SPEED," + val + post;
+        QString add = pre + "TI_MCT8316A_CONST_SPEED," + val + post;
         line += add;
         return;
     }
@@ -262,7 +258,11 @@ void mcx8316a::AddTiConfigLine(QString &line,QString id, QString val)
 
     if (id.startsWith("peri_config"))
     {
+#ifdef TI_TRAPEZUID
+        QString add = pre + "TI_MCT8316A_PERIPH_CONFIG," + val + post;
+#else
         QString add = pre + "TI_MCF8316A_PERI_CONFIG1," + val + post;
+#endif
         line += add;
         return;
     }
@@ -285,21 +285,21 @@ void mcx8316a::AddTiConfigLine(QString &line,QString id, QString val)
 
     if (id.startsWith("sys_status1"))
     {
-        QString add = pre + "TI_MCT8316A_SYS_STATUS1," + val + post;
+        QString add = pre + "TI_MCx8316A_SYS_STATUS1," + val + post;
         line += add;
         return;
     }
 
     if (id.startsWith("sys_status2"))
     {
-        QString add = pre + "TI_MCT8316A_SYS_STATUS2," + val + post;
+        QString add = pre + "TI_MCx8316A_SYS_STATUS2," + val + post;
         line += add;
         return;
     }
 
     if (id.startsWith("sys_status3"))
     {
-        QString add = pre + "TI_MCT8316A_SYS_STATUS3," + val + post;
+        QString add = pre + "TI_MCx8316A_SYS_STATUS3," + val + post;
         line += add;
         return;
     }
@@ -308,13 +308,13 @@ void mcx8316a::AddTiConfigLine(QString &line,QString id, QString val)
 
     if (id.startsWith("device_ctrl"))
     {
-        QString add = pre + "TI_MCT8316A_DEVICE_CTRL," + val + post;
+        QString add = pre + "TI_MCx8316A_DEVICE_CTRL," + val + post;
         line += add;
         return;
     }
     if (id.startsWith("algo_ctrl1"))
     {
-        QString add = pre + "TI_MCF8316A_ALGO_CTRL1," + val + post;
+        QString add = pre + "TI_MCx8316A_ALGO_CTRL1," + val + post;
         line += add;
         return;
     }
