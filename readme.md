@@ -17,7 +17,7 @@ With some nice TI utilities you can create con fig files like MCF8316A_example.j
 With this project I wanted to create C file to include in Microchip or other embedded tools.
 
 
-Start the exe.... 
+Start the exe.... MCF/MCF in the RET directory open the save file.
 Run it the it make a MCF8316A_example.c
 You need to define what Type of CPU you want.
 
