@@ -10,4 +10,5 @@ copy %QDIR%\Qt6Core%QDLL% %DST%
 mkdir %DST%\platforms
 copy %QB%\plugins\platforms\qwindows%QDLL% %DST%\platforms\qwindows%QDLL%
 copy ..\build-MCF8316Json2C-Desktop_Qt_6_5_0_MSVC2019_64bit-Release\release\*.exe %DST%
+echo done
 pause
